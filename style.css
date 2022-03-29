@@ -1,0 +1,156 @@
+body{
+    background: url(images/virus.jpg) fixed no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.ball {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+position: relative;
+background: radial-gradient(circle at bottom, #81e8f6, #76deef 10%, #055194 80%, #062745 100%); 
+}
+.ball1 {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background: radial-gradient(circle at bottom, #81e8f6, #76deef 10%, #055194 80%, #062745 100%); 
+}
+.ball2 {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background: radial-gradient(circle at bottom, #81e8f6, #76deef 10%, #055194 80%, #062745 100%); 
+}
+.ball3 {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background: radial-gradient(circle at bottom, #81e8f6, #76deef 10%, #055194 80%, #062745 100%); 
+}
+   
+#id-section{
+    height: 100%;
+    width: 100%;
+}
+
+.bubble{
+    animation: anim 5s infinite;
+}
+.bubble1{
+    animation: anim1 6s infinite;
+}
+.bubble2{
+    animation: anim2 4s infinite;
+}
+.bubble3{
+    animation: anim3 3s infinite;
+}
+
+
+/* faire bouger bulle*/
+@keyframes anim {
+    0% {
+    transform: translate(20vw, 30vh); 
+    }
+  
+    20% {
+    transform: translate(60vw, 50vh); 
+    }
+  
+    48% {
+    transform: translate(80vw, 100vh);
+    }
+  
+    68% {
+    transform:translate(100vw, 90vh); 
+    }
+  
+    80% {
+    transform:translate(50vw, 40vh); 
+    }
+  
+    100% {
+    transform:translate(20vw, 30vh) ; 
+    }
+}    
+  
+@keyframes anim1 {
+    0% {
+    transform:translate(10vw, 90vh) ; 
+    }
+
+    20% {
+    transform:translate(60vw, 100vh) ; 
+    }
+
+    48% {
+    transform:translate(30vw, 60vh) ; 
+    }
+
+    68% {
+    transform:translate(80vw, 30vh) ; 
+    }
+
+    80% {
+    transform:translate(-20vw, -40vh) ; 
+    }
+
+    100% {
+    transform:translate(10vw, 90vh); 
+    } 
+}
+@keyframes anim2 {
+    0% {
+    transform:translate(10vw, 90vh) ; 
+    }
+
+    20% {
+    transform:translate(60vw, 100vh) ; 
+    }
+
+    48% {
+    transform:translate(30vw, 60vh) ; 
+    }
+
+    68% {
+    transform:translate(80vw, 30vh) ; 
+    }
+
+    80% {
+    transform:translate(-20vw, -40vh) ; 
+    }
+
+    100% {
+    transform:translate(10vw, 90vh); 
+    } 
+}
+@keyframes anim3 {
+    0% {
+    transform:translate(90vw, 40vh) ; 
+    }
+
+    20% {
+    transform:translate(60vw, 20vh) ; 
+    }
+
+    48% {
+    transform:translate(40vw, 80vh) ; 
+    }
+
+    68% {
+    transform:translate(20vw, -40vh) ; 
+    }
+
+    80% {
+    transform:translate(-40vw, 30vh) ; 
+    }
+
+    100% {
+    transform:translate(90vw, 40vh); 
+    } 
+}
